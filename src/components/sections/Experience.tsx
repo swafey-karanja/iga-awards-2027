@@ -38,7 +38,7 @@ export default function Experience() {
                         </p>
                         <h2
                             id="experience-title"
-                            className="mt-5 font-heading text-[clamp(2rem,4.5vw,3.25rem)] font-normal uppercase leading-[1.1] text-white"
+                            className="mt-5 font-heading text-[clamp(2rem,4.5vw,3.25rem)] font-semibold uppercase leading-[1.1] text-white"
                         >
                             {experience.titleLine1}
                             <span className="block text-slate-400">{experience.titleLine2}</span>

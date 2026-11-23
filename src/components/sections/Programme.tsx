@@ -14,7 +14,7 @@ export default function Programme() {
     return (
         <section id="programme" aria-labelledby="programme-title" className="py-16 md:py-24">
             <div className="mx-auto w-[calc(100%-3rem)] md:w-[85%] lg:w-[65%] lg:px-10">
-                <div className="grid items-end gap-6 lg:grid-cols-2">
+                <div className="flex items-end justify-between">
                     <SectionHeading
                         id="programme-title"
                         eyebrow="The Programme"

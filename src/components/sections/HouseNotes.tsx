@@ -33,9 +33,9 @@ export default function HouseNotes() {
                             key={rule.title}
                             className="grid grid-cols-[3.5rem_1fr] gap-x-2 border-t border-white/10 py-6"
                         >
-              <span className="pt-1 font-mono text-xs text-gold">
-                #{String(i + 1).padStart(2, "0")}
-              </span>
+                          <span className="pt-1 font-mono text-xs text-gold">
+                            #{String(i + 1).padStart(2, "0")}
+                          </span>
                             <div>
                                 <h3 className="font-heading text-base uppercase tracking-wide text-white">
                                     {rule.title}

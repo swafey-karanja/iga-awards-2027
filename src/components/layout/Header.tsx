@@ -6,9 +6,9 @@ import MobileMenu from "./MobileMenu";
 
 export default function Header() {
     return (
-        <header className="fixed inset-x-0 top-0 z-50 bg-linear-to-b from-black/80 to-transparent">
+        <header className="fixed inset-x-0 top-0 z-50 backdrop-blur-sm bg-linear-to-b from-black/80 to-transparent">
             <a
-                href="#main"
+                href="#home"
                 className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:bg-gold focus:px-4 focus:py-2 focus:text-black"
             >
                 Skip to content
@@ -19,7 +19,7 @@ export default function Header() {
                     {/* PLACEHOLDER: replace with the real logo (next/image) */}
                     <a
                         href="#home"
-                        className="flex items-center gap-2 font-heading text-lg font-semibold text-white focus-visible:outline-2 focus-visible:outline-gold"
+                        className="flex items-center gap-2 font-heading text-2xl font-semibold text-white focus-visible:outline-2 focus-visible:outline-gold"
                     >
                         <AutoAwesomeIcon fontSize="small" className="text-gold" aria-hidden />
                         iGA Awards
@@ -32,7 +32,7 @@ export default function Header() {
                             <a
                                 key={item.href}
                                 href={item.href}
-                                className="text-sm text-white/90 transition-colors hover:text-gold focus-visible:outline-2 focus-visible:outline-gold"
+                                className="text-sm font-semibold text-white/90 transition-colors hover:text-gold focus-visible:outline-2 focus-visible:outline-gold"
                             >
                                 {item.label}
                             </a>

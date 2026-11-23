@@ -5,7 +5,7 @@ import SectionHeading from "@/components/ui/SectionHeading";
 const venue = {
     name: "Venue Name",
     text: "PLACEHOLDER: two or three lines describing the venue and what makes it suited to the event.",
-    image: "/images/placeholders/venue.jpg", // PLACEHOLDER: 1000x1200+
+    image: "/sarit.jpg", // PLACEHOLDER: 1000x1200+
     imageAlt: "PLACEHOLDER: exterior of the venue at night",
     details: [
         { label: "Address", value: "Street Address\nCity, Postcode" },

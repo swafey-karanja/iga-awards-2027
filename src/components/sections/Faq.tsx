@@ -39,7 +39,7 @@ export default function Faq() {
                     <p className="font-mono text-xs uppercase tracking-wider text-gold">FAQ</p>
                     <h2
                         id="faq-title"
-                        className="mt-5 font-heading text-[clamp(2rem,4.5vw,3.25rem)] font-normal uppercase leading-[1.1] text-white"
+                        className="mt-5 font-heading text-[clamp(2rem,4.5vw,3.25rem)] font-semibold uppercase leading-[1.1] text-white"
                     >
                         Got a question?
                     </h2>

@@ -32,6 +32,7 @@ export default function MobileMenu({ items, cta }: MobileMenuProps) {
                 <nav
                     id="mobile-nav"
                     aria-label="Mobile"
+                    data-lenis-prevent
                     className="absolute inset-x-0 top-full flex max-h-[calc(100svh-5rem)] flex-col gap-1 overflow-y-auto bg-black px-6 pb-8 pt-4"
                 >
                     {items.map((item) => (

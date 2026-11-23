@@ -8,6 +8,7 @@ import Gallery from "@/components/sections/Gallery";
 import Press from "@/components/sections/Press";
 import HouseNotes from "@/components/sections/HouseNotes";
 import Faq from "@/components/sections/Faq";
+import AwardCategories from "@/components/sections/AwardCategories";
 
 export default function Home() {
     return (
@@ -16,6 +17,7 @@ export default function Home() {
             <main id="main">
                 <Hero />
                 <Experience />
+                <AwardCategories />
                 <Programme />
                 <Venue />
                 <Gallery />
